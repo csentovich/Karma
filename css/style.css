@@ -1,9 +1,4 @@
-body {
-    background-color: LightGray;
-}
-div {
-    border: 1px solid Chocolate;
-}
+
 /*Navigation Section*/
 .top-navigation {
     background-color: #fff;
@@ -14,10 +9,39 @@ div {
     margin: 0 auto;
 }
 .content {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 16px; 
+    color: #838994; 
+    letter-spacing: 0.03em;
+    padding: 0px 15px;
     margin-left: 14px;
     height: 70px;
 }
 .logo {
-    margin-left: 14px;
+    
     height: 70px;
+}
+.links {
+    float: right;
+    margin-top: 1.7rem;
+    margin-right: 70px;
+}
+.links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+.top-navigation .links .active {
+    color: #4c5058;
+    font-weight: 500;
+}
+/*Background*/
+.introduction {
+    background-image: url('../images/first-background.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+}
+.introduction > .content {
+    color: white;
 }
