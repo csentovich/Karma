@@ -12,17 +12,20 @@ div {
     width: 60rem;
     height: 4.375rem;
     margin: 0 auto;
-    padding: 0px 15px;
+    padding: 0px 25px;
 }
 .top-navigation .logo {
     height: 4.375rem;
+    margin-left: 100px;
 }
 .top-navigation .links {
     float: right;
     margin-top: 1.7rem;
+    margin-right: 100px;
 }
 .links li {
     display: inline-block;
+    margin-left: 20px;
 }
 .content {
     font-family: 'Roboto', sans-serif; 
@@ -30,3 +33,12 @@ div {
     color: #838994; 
     letter-spacing: 0.03em;
     }
+.top-navigation .links > .active {
+    color: #4c5058;
+    font-weight: 500;
+}
+.top-navigation .links li:hover {
+    cursor: pointer;
+    color: #333333;
+}
+    
