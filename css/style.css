@@ -96,3 +96,7 @@
     font-size: 1.563rem;
     font-family: 'Roboto', sans-serif;
 }
+.social .content .icons {
+    display: inline-block;
+    border-radius: 10px 120px;
+}
